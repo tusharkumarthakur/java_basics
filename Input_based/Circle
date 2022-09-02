@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class abc{
+ 
+    float area(float a){
+        
+        return 3.14f*a*a;
+        }
+    }
+ class Main{
+    public static void main(String args[]){
+     abc ob=new abc();
+     System.out.println("enter radius");
+     Scanner sc=new Scanner(System.in);
+     System.out.println(ob.area(sc.nextFloat()));
+     //area of circle.
+     }   
+     }
