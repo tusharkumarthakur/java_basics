@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.util.Arrays;
+class m{
+    public static void main(String[] args) {
+              
+                 int a[][],b,c;
+  Scanner sc = new Scanner(System.in);
+                 a=new int[b=sc.nextInt()][c=sc.nextInt()];
+  
+            for(int i=0;i<b;i++)
+            for(int j=0;j<c;j++)
+            a[i][j]=sc.nextInt();
+            for(int i=0;i<b;i++)
+            for(int j=0;j<c;j++)
+   System.out.println("==>"+a[i][j]);
+   //array printing
+                                   
+          }
+                }
