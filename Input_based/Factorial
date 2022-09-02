@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class factorial{
+    int a,s;
+      factorial(int i){
+       a=i;     
+        s=1;              }
+    int fact(){
+       for(int j=1;j<=a;j++){
+       s=s*j;
+       }
+       return s;         
+        }}
+        class test{
+              public static void main (String args[]){
+         Scanner sc = new Scanner(System.in);
+         System.out.println("input x");
+         int x = sc.nextInt();   
+         System.out.println("input y");
+         int y= sc.nextInt();
+        factorial s1 = new factorial(x);
+    factorial s2 = new factorial(y);    
+    
+       System.out.println(s1.fact());
+       System.out.println(s2.fact());
+   //factorail of two input numbers
+                   }                    }
+    
