@@ -1,0 +1,13 @@
+//greater three off
+import java.util.Scanner;
+    class greater{
+        
+    greater (int x,int y,int z){
+        System.out.print(x>y?x>z?x:z:y>z?y:z);
+    
+     }  }
+class Main{
+  public static void main(String[] args){    Scanner sc=new Scanner(System.in);
+      greater ob=new greater(sc.nextInt(),sc.nextInt(),sc.nextInt())  ;
+        
+            }    }
