@@ -1,0 +1,17 @@
+//8. 75% attandance
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		int tc,ac;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter total classes and then attended classes");
+        tc=sc.nextInt();
+        ac=sc.nextInt();
+        double x=((float)ac/tc)*100;
+        if (x<75)
+           System.out.println("not allowed");
+           
+       else
+       System.out.println("Allowed");
+	}
+} 
