@@ -1,0 +1,18 @@
+//9. 75% attandance with medical leave
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		int tc,ac,ld;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter total classes and then attended classes\nmedical days");
+        tc=sc.nextInt();
+        ac=sc.nextInt();
+        ld=sc.nextInt();
+        double x=((float)ac/(tc-ld))*100;
+        if (x<75)
+           System.out.println("not allowed");
+           
+       else
+       System.out.println("Allowed");
+	}
+} 
