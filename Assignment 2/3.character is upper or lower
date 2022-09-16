@@ -1,0 +1,23 @@
+//11.lower upper case 
+import java.util.Scanner;
+    
+class Main{
+   
+    
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+
+    char p=sc.next().charAt(0);
+        char s;
+     
+if (p>=65 && p<=90)
+    System.out.println("Upper case");
+else if (p>=97 && p<=122)
+    System.out.println("Lower case");
+else
+ System.out.println("enter valid char");
+
+
+        }
+    
+    }
